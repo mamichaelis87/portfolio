@@ -3,13 +3,27 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: aliceblue;
-  color: slategray;
   display: flex;
   flex-direction: column;
   margin: 0;
+  color: aliceblue;
 }
 
 .about, .contact {
-  color: aliceblue;
   background-color: slategray;
+}
+
+.projects {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 2rem;
+}
+
+.project-card {
+  background-color: slategray;
+}
+
+.project-title {
+  font-size: larger;
 }
