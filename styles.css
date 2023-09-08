@@ -11,6 +11,22 @@ body {
 
 .about, .contact {
   background-color: slategray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.about-photo {
+  
+}
+
+.about-info {
+  background-color: aliceblue;
+  color: slategray;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 3px 3px 3px black;
 }
 
 .projects {
@@ -22,8 +38,23 @@ body {
 
 .project-card {
   background-color: slategray;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .project-title {
   font-size: larger;
+}
+
+.contact-info {
+  background-color: aliceblue;
+  color: slategray;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 3px 3px 3px black;
+}
+
+.contact-photo {
+
 }
