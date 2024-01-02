@@ -41,20 +41,21 @@ img {
   box-shadow: 3px 3px 3px black;
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
-  min-width: 420px;
-  max-width: 500px;
-  max-height: 300px;
-  flex-grow: 1;
-  margin: 12px;
   display: flex;
+  justify-content: space-between;
 }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 20px;
   padding: 2rem;
-  margin: auto;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
+.projects .card {
+  max-height: fit-content;
+  min-width: fit-content;
+  max-width: 600px;
 }
 
 .projects .card:hover {
@@ -63,16 +64,17 @@ img {
 
 .project-info {
   padding: 12px;
+  max-width: 400px;
 }
 
 .project-title {
   font-size: larger;
 }
 
-.project-title {
+/* .project-title {
 
-}
+} */
 
 .projects img {
-  max-height: 250px;
+  max-width: 200px;
 }
