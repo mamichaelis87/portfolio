@@ -43,15 +43,15 @@ img {
 }
 
 .hero-info .first {
-  animation: 1.5s ease-out 0s 1 slideIn;
+  animation: 1.25s ease-out 0s 1 slideIn;
 }
 
 .hero-info .second {
-  animation: 2.5s ease-out 0s 1 slideIn;
+  animation: 2.0s ease-out 0s 1 slideIn;
 }
 
 .hero-info .third {
-  animation: 3.5s ease-out 0s 1 slideIn;
+  animation: 2.75s ease-out 0s 1 slideIn;
 }
 
 @keyframes slideIn {
