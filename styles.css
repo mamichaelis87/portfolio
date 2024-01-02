@@ -1,60 +1,48 @@
-
+:root {
+  --bg-primary: aliceblue;
+  --bg-secondary: slategray;
+  --text-primary: slategray;
+  --text-secondary: aliceblue;
+}
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: aliceblue;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
   display: flex;
   flex-direction: column;
   margin: 0;
-  color: aliceblue;
 }
 
-.about, .contact {
-  background-color: slategray;
+.hero, .contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
 }
 
-.about-photo {
-  
-}
-
-.about-info {
-  background-color: aliceblue;
-  color: slategray;
-  border-radius: 5px;
-  padding: 1rem;
-  box-shadow: 3px 3px 3px black;
-}
-
 .projects {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, minmax(200px, 360px));
   padding: 2rem;
+  margin: auto;
 }
 
-.project-card {
-  background-color: slategray;
+.card {
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 3px 3px 3px black;
+  transition-duration: .1s;
+  transition-timing-function: ease-in-out;
+}
+
+.projects .card:hover {
+  transform: scale(1.05)
 }
 
 .project-title {
   font-size: larger;
-}
-
-.contact-info {
-  background-color: aliceblue;
-  color: slategray;
-  border-radius: 5px;
-  padding: 1rem;
-  box-shadow: 3px 3px 3px black;
-}
-
-.contact-photo {
-
 }
