@@ -26,23 +26,11 @@ img {
   max-height: 400px;
 }
 
-.projects img {
-  max-height: 300px;
-}
-
 .hero, .contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-}
-
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2rem;
-  margin: auto;
-  justify-content: center;
 }
 
 .card {
@@ -53,17 +41,38 @@ img {
   box-shadow: 3px 3px 3px black;
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
-  min-width: 360px;
-  max-height: 360px;
+  min-width: 420px;
+  max-width: 500px;
+  max-height: 300px;
   flex-grow: 1;
   margin: 12px;
   display: flex;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin: auto;
+  justify-content: center;
 }
 
 .projects .card:hover {
   transform: scale(1.05)
 }
 
+.project-info {
+  padding: 12px;
+}
+
 .project-title {
   font-size: larger;
+}
+
+.project-title {
+
+}
+
+.projects img {
+  max-height: 250px;
 }
