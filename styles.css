@@ -42,6 +42,27 @@ img {
   margin-left: 2rem;
 }
 
+.hero-info .first {
+  animation: 1.5s ease-out 0s 1 slideIn;
+}
+
+.hero-info .second {
+  animation: 2.5s ease-out 0s 1 slideIn;
+}
+
+.hero-info .third {
+  animation: 3.5s ease-out 0s 1 slideIn;
+}
+
+@keyframes slideIn {
+  0% {
+    translate: 100vw;
+  }
+  100% {
+    translate: none;
+  }
+}
+
 .card {
   background-color: var(--bg-secondary);
   color: var(--text-secondary);
