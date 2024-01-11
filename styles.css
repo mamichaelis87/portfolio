@@ -44,10 +44,13 @@ body {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .header a {
   font-size: larger;
   color: whitesmoke;
-  text-decoration: none;
   margin-left: 20px;
 }
 
@@ -157,6 +160,11 @@ img {
 
 .project-title {
   font-size: larger;
+  color: var(--text-secondary);
+}
+
+.project-title:hover {
+  text-decoration: underline;
 }
 
 .projects img {
