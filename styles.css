@@ -150,7 +150,7 @@ img {
   color: var(--text-secondary);
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 3px 3px 3px gray;
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
   display: flex;
