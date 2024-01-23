@@ -171,6 +171,14 @@ img {
   padding-top: 32px;
 }
 
+.projects {
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
 .card {
   background-color: var(--bg-secondary);
   color: var(--text-secondary);
@@ -182,13 +190,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.projects {
-  display: grid;
-  gap: 20px;
-  padding: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
 }
 
 .projects .card {
