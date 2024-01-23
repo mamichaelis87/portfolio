@@ -43,6 +43,10 @@ body {
   transform: scale(1.1);
 }
 
+.menu-button:active {
+  transform: scale(1);
+}
+
 .nav-links {
   width: 250px;
   display: none;
