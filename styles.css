@@ -50,11 +50,15 @@ body {
   background-color: var(--bg-primary);
   border-radius: 10px;
   padding: 10px;
+}
+
+.show {
   animation-name: linkSlideDown;
-  animation-duration: .2s;
+  animation-duration: .5s;
   animation-iteration-count: 1;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
   animation-delay: 0s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes linkSlideDown {
@@ -63,6 +67,24 @@ body {
   }
   100% {
     transform: none;
+  }
+}
+
+.hide {
+  animation-name: linkSlideUp;
+  animation-duration: .5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes linkSlideUp {
+  0% {
+    transform: none;
+  }
+  100% {
+    translate: 0px -100px;
   }
 }
 
