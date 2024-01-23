@@ -1,3 +1,3 @@
-My personal portgolio site.
+My personal portfolio site.
 
 See it live at mamichaelis.com!
