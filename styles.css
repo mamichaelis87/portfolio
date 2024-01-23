@@ -183,9 +183,19 @@ img {
 .project-title {
   font-size: larger;
   color: var(--text-secondary);
+  margin: 0;
 }
 
-.project-title:hover {
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-links a {
+  color: var(--text-secondary);
+}
+
+.project-links a:hover {
   text-decoration: underline;
 }
 
