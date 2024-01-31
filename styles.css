@@ -107,7 +107,8 @@ a {
 
 .hero {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem;
   background-color: var(--bg-secondary);
@@ -117,18 +118,7 @@ a {
 
 .hero p {
   font-size: xx-large;
-}
-
-img {
-  height: auto;
-  width: auto;
-  min-width: 200px;
-  max-width: 100%;
-  max-height: 400px;
-}
-
-.image {
-  max-width: 300px;
+  justify-self: center;
 }
 
 .hero-info {
@@ -158,6 +148,26 @@ img {
   100% {
     translate: none;
   }
+}
+
+.arrow-container {
+  justify-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chevron::before {
+  border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+  content: '';
+  display: inline-block;
+  height: 0.45em;
+  left: 0.15em;
+  top: 0.15em;
+  vertical-align: top;
+  width: 0.45em;
+  transform: rotate(135deg);
 }
 
 .projects-header {
@@ -237,6 +247,18 @@ img {
 
 .projects img {
   max-width: 200px;
+}
+
+img {
+  height: auto;
+  width: auto;
+  min-width: 200px;
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.image {
+  max-width: 300px;
 }
 
 .bio {
