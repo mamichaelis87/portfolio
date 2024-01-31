@@ -48,12 +48,16 @@ body {
 }
 
 .nav-links {
-  width: 250px;
+  width: fit-content;
   display: none;
   justify-content: space-between;
   background-color: var(--bg-primary);
   border-radius: 10px;
   padding: 10px;
+}
+
+.page-link {
+  margin: 0 .5rem 0 .5rem;
 }
 
 .show {
