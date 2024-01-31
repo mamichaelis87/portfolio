@@ -36,6 +36,7 @@ body {
   font-size: 28px;
   border: none;
   color: var(--text-secondary);
+  margin-right: 1rem;
 }
 
 .menu-button:hover {
