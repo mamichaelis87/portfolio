@@ -157,7 +157,27 @@ a {
   align-items: center;
 }
 
-.chevron::before {
+.arrow-container p {
+  opacity: 0;
+  animation: 2s 2s 1 forwards fadeIn;
+}
+
+.chevron-one {
+  opacity: 0;
+  animation: 2s 2.5s 1 forwards fadeIn;
+}
+
+.chevron-two {
+  opacity: 0;
+  animation: 2s 3s 1 forwards fadeIn;
+}
+
+.chevron-three {
+  opacity: 0;
+  animation: 2s 3.5s 1 forwards fadeIn;
+}
+
+.chevron-one::before, .chevron-two::before, .chevron-three::before {
   border-style: solid;
   border-width: 0.15em 0.15em 0 0;
   content: '';
@@ -168,6 +188,16 @@ a {
   vertical-align: top;
   width: 0.45em;
   transform: rotate(135deg);
+}
+
+@keyframes fadeIn {
+  0% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .projects-header {
