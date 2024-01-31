@@ -301,7 +301,7 @@ img {
 
 .bio img, .contact img {
   border-radius: 10px;
-  border: 4px solid var(--bg-secondary);
+  /* border: 4px solid var(--bg-secondary); */
 }
 
 .bio-story {
