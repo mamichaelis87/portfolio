@@ -218,6 +218,20 @@ a {
   /* grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); */
 }
 
+.odin-description {
+  font-size: medium;
+  max-width: 600px;
+  padding: 1rem;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.odin-description a {
+  text-decoration: underline;
+  line-height: normal;
+}
+
 .card {
   margin: 1rem 0 1rem 0;
   /* background-color: var(--bg-secondary);
@@ -255,6 +269,10 @@ a {
   font-size: larger;
   /* color: var(--text-secondary); */
   margin: 0 0 .5rem 0;
+}
+
+.project-description {
+  line-height: 1.5;
 }
 
 .card-links {
