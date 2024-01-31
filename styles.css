@@ -275,6 +275,11 @@ a {
   line-height: 1.5;
 }
 
+.notice {
+  max-width: 200px;
+  line-height: 1.5;
+}
+
 .card-links {
   display: flex;
   flex-direction: column;
