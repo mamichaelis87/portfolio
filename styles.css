@@ -210,7 +210,7 @@ a {
   padding-top: 32px;
 }
 
-.projects {
+.projects, .work {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -229,9 +229,12 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-height: fit-content;
+  min-width: fit-content;
+  max-width: 600px;
 }
 
-.projects .card {
+.card {
   max-height: fit-content;
   min-width: fit-content;
   max-width: 600px;
