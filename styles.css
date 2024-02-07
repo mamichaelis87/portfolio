@@ -127,7 +127,7 @@ a {
 }
 
 .hero-info {
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   text-align: center;
 }
 
@@ -222,7 +222,7 @@ a {
   font-size: medium;
   max-width: 600px;
   padding: 1rem;
-  text-align: center;
+  text-align: justify;
   margin: auto;
   line-height: 1.5;
 }
@@ -335,6 +335,7 @@ img {
 
 .bio-story p {
   line-height: 1.5;
+  text-align: justify;
 }
 
 .contact {
